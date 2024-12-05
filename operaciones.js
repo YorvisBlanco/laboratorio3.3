@@ -28,7 +28,7 @@ function realizarOperacion(num1, num2, operacion){  //inicializacion de las vari
 while (true){
     //solicitar al usuario el primer num
     num1 = parseFloat(prompt("ingrese el primer numero( o escriba salir para terminar)"));
-    
+
     //si la entrada no es un numero termine el bucle
     if(isNaN(num1)){
         console.log("adios.");
@@ -57,4 +57,5 @@ while (true){
     const resultado = realizarOperacion(num1, num2, operacion.toLowerCase());
 
     console.log(`resultado: ${resultado}`);
+    
 }
